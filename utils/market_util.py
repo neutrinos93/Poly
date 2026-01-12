@@ -2,7 +2,7 @@ import httpx
 from urllib.parse import urljoin
 import pandas as pd
 
-import urls_endpoints as ep
+import utils.urls_endpoints as ep
 import utils.mytools as mytools
 
 class MarketUtil:

@@ -1,7 +1,7 @@
 import httpx
 from urllib.parse import urljoin
 
-import urls_endpoints as ep
+import utils.urls_endpoints as ep
 
 class GetTraders:
   def __init__(self):
